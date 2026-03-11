@@ -1,0 +1,30 @@
+.square {
+  width: 700px;
+  height: 700px;
+  background: rgb(255, 251, 239);
+  position: absolute;
+}
+
+.square1 {
+  width: 500px;
+  height: 500px;
+  background: rgb(58, 55, 55);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  position: relative; /* ✅ 이 줄 추가: triangle 기준점 */
+}
+
+.triangle {
+  width: 50;
+  height: 50;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  border-top: 250px solid rgb(255, 130, 13);
+  border-right: 250px solid transparent;
+  border-left: 0 solid transparent;
+}
